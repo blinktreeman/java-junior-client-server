@@ -97,7 +97,6 @@ public class Server {
     private static Server server;
     private final int SERVER_PORT = 65123;
     protected static Long clientId = 0L;
-    protected static Map<Long, Socket> clients = new HashMap<>();
     protected static List<ClientHandler> clientHandlerList = new ArrayList<>();
 
     public static Server getInstance() {
